@@ -1,0 +1,57 @@
+#home {
+	background: #ffb6c1; /* Um tom suave de rosa */
+	color: white;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #ffe4e1; /* Bordas com um tom rosa claro */
+	background-color: #fff0f5; /* Fundo em rosa muito claro */
+}
+/* Estilo inicial para as imagens */
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse */
+img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+form .form-control {
+  border-radius: 20px;
+  border: 1px solid #ffb6c1;
+}
+
+.btn-warning {
+  border-radius: 20px;
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+}
+
+.btn-warning:hover {
+  background-color: #ff1493;
+  border-color: #ff1493;
+}
+footer {
+  background-color: #ffe4e1;
+  padding: 20px 0;
+}
+
+footer .btn-outline-dark {
+  border-color: #ff69b4;
+  color: #ff69b4;
+}
+
+footer .btn-outline-dark:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+footer p a {
+	margin: 5px 15px;
+	color: #ff69b4; /* Um rosa mais forte */
+	text-decoration: none;
+}
+
+footer p a:hover {
+    color: #ff1493; /* Um rosa vibrante para
